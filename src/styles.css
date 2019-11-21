@@ -1,4 +1,36 @@
-.App {
-  font-family: sans-serif;
+.title {
+  background-color: #cfb53b;
+  display: inline-block;
+  margin: 5px;
+  border: 2.5px solid;
+  border-radius: 10px;
+}
+
+.title-content {
+  color: #000000;
+  font-weight: bold;
+  margin: 10px;
   text-align: center;
+}
+
+.tvSeries {
+  background-color: lightgreen;
+  display: inline-block;
+  margin: 5px;
+  border: 2.5px solid;
+  border-radius: 10px;
+  width: 270px;
+  height: 125px;
+  text-align: center;
+}
+
+.tvSeries-content {
+  color: #000000;
+  margin: 15px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.tvSeries-content:hover {
+  text-decoration: none;
 }
